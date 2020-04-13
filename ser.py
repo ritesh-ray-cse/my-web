@@ -11,6 +11,17 @@ def ColorGame():
     return template("colorgame.tpl",links = url) # this is url
 
 
+@route("/todo/")
+def ToDo():
+    return template("todo.tpl",links = url)
+
+
+@route("/")
+def Homepage():
+    return template("home.tpl" , linklist = ["/todo/" , "/colorgame/"])
+
+
+
 # the format of url is
 #  links ('name of static function' ,filepath='filepath of file')
 
@@ -19,3 +30,4 @@ if __name__ == "__main__":
     port=os.environ.get("PORT",5000)
     port=int(port)
     run(host="0.0.0.0",port=port,debug=False)
+    #run()
