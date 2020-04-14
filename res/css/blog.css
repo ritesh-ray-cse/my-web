@@ -1,0 +1,47 @@
+h1{
+	color:red;
+	text-decoration :underline dashed;
+	font-size:2.0rem;
+	font-family: arial;
+}
+body{
+	border:20px solid gray;
+	padding:30px;
+	max-width:700px;
+	margin:20px auto;
+	width: 80%;
+	font-family:cursive;
+	font-size:20px;
+	color:blue;
+}
+.quote{
+	border-left:2px solid red;
+	padding-left:5px;
+}
+.date{
+	color:blue;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+.lin{
+	color:red;
+	text-decoration: underline dashed;
+	font-family:'cursive';
+}
+p{
+    background: linear-gradient(90deg, #2bc0e4 10%, #eaecc6 90%);
+}
+button{
+    border: none;
+	background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 1.0s;
+	--webkit--transition:all 1.0s; 
+--moz--transition:all 1.0s; 
+    outline: none;
+
+}

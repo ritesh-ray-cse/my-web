@@ -18,7 +18,7 @@ def ToDo():
 
 @route("/")
 def Homepage():
-    return template("home.tpl" , linklist = ["/todo/" , "/colorgame/"])
+    return template("home.tpl" , links = url)
 
 
 
@@ -27,7 +27,10 @@ def Homepage():
 
 
 if __name__ == "__main__":
-    port=os.environ.get("PORT",5000)
-    port=int(port)
-    run(host="0.0.0.0",port=port,debug=False)
-    #run()
+    if os.getenv("COMPUTERNAME")=='RITESH-LAPPY':
+        run(debug=True)
+    else:
+        port=os.environ.get("PORT",5000)
+        port=int(port)
+        run(host="0.0.0.0",port=port,debug=False)
+    

@@ -5,17 +5,16 @@
 <html>
 <head>
 	<title>my first blog</title>
-	<link rel="stylesheet" type="text/css" href="C:\Users\lenovo\Documents\web design exercise\blogcss.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="{{links('res',filepath='css/blog.css')}}" rel="stylesheet">
+
 </head>
 <body>
 	<h1>Information About Coronavirus</h1>
 	<p><marquee width="100%" direction="right" height="100px">
 click on the link to visit official site :---<a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" class="lin">who official website</a>
-</marquee></p><br>
+</marquee></p>
 <button id="colorgame" onclick="window.open('/colorgame/')" placeholder="colorgame">Color game</button>
 <button id="todo" onclick="window.open('/todo/')" placeholder="todo">Todo list</button>
-<br>
 	<div class="post">
 		<div class="date">22 march 2020</div>
 	<p class="quote">
