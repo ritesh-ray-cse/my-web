@@ -16,6 +16,11 @@ def ToDo():
     return template("todo.tpl",links = url)
 
 
+@route("/fungame/")
+def ToDo():
+    return template("fungame.tpl",links = url)
+
+
 @route("/")
 def Homepage():
     return template("home.tpl" , links = url)

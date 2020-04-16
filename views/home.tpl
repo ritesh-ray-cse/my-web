@@ -15,6 +15,7 @@ click on the link to visit official site :---<a href="https://www.who.int/health
 </marquee></p>
 <button id="colorgame" onclick="window.open('/colorgame/')" placeholder="colorgame">Color game</button>
 <button id="todo" onclick="window.open('/todo/')" placeholder="todo">Todo list</button>
+<button id="game" onclick="window.open('/fungame/')" placeholder="todo"> click here to have fun </button>
 	<div class="post">
 		<div class="date">22 march 2020</div>
 	<p class="quote">
